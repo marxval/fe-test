@@ -1,4 +1,4 @@
-import Header from "./Header";
+import {Header} from "./Header";
+import {ToggleButton} from "./ToggleButton";
 
-
-export {Header};
+export {Header,ToggleButton};

@@ -1,0 +1,22 @@
+.Toggle-Button {
+    height: 31px;
+    width: 98px;
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.Toggle-Button-Selected {
+    border: 1px solid #1797ff;
+    color: #1797ff;
+    cursor: default;
+}
+
+button:last-child.Toggle-Button-Selected {
+    border-left: 0;
+}
+
+button:first-child.Toggle-Button-Selected {
+    border-right: 0;
+}

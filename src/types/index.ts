@@ -12,4 +12,3 @@ export type QueryResponse = {
     hits: HitsArray,
     nbPages: number,
 }
-  

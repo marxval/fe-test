@@ -4,6 +4,11 @@ export enum Query {
     Vue = 'Vue',
 }
 
+export enum QueryFilter {
+    Default = 'All',
+    Favs = 'My faves'
+}
+
 export const DEFAULT_QUERY = Query.React;
 export const INITAL_PAGE = 0;
 export const HITS_PER_PAGE = 8;
