@@ -8,7 +8,17 @@ export type HitType = {
 
 export type HitsArray = Array<HitType>;
 
+export type Favs = {
+    [key: string]: HitType;
+}
+  
 export type QueryResponse = {
     hits: HitsArray,
     nbPages: number,
+}
+
+export type DataResponseHitsAPI = {
+    data: QueryResponse,
+    loading: boolean,
+    error: boolean
 }
