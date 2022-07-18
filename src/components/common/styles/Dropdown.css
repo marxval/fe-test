@@ -1,0 +1,53 @@
+.Dropdown-Container {
+    height: 32px;
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+
+.Select {
+    width: 240px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Dropdown-Arrow {
+    transform: rotate(90deg);
+}
+
+.Img-Dropdown-Option {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.Dropdown {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.Dropdown-Option {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.Dropdown-Option:hover {
+    opacity: 0.4;
+}
+
+
+.Options-Container {
+    position: absolute;
+    width: 240px;
+    cursor: pointer;
+    background-color: white;
+    z-index: 2;
+    box-shadow: 0 2px 2px 0 #dad8d8;
+}
