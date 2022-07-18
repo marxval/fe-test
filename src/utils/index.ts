@@ -55,3 +55,18 @@ export function getHitsForFav(favsList: HitsArray, pageFavs: number){
   const lastIndex = initalIndex + HITS_PER_PAGE;
   return sortedList.slice(initalIndex, lastIndex);
 }
+
+/**
+* Get an array fill of numbers between a given range
+*/
+export function range(start: number, end: number) {
+  return Array(end - start + 1).fill('').map((_, idx) => start + idx)
+}
+
+/**
+* Get last page num of favs array
+*/
+export const getLastPageForFavs = (totalFavs: number) => {
+  const isEmpty = !totalFavs;
+  return isEmpty ? 0 : Math.ceil(totalFavs / HITS_PER_PAGE)
+}

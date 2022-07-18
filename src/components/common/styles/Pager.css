@@ -1,0 +1,36 @@
+.Pager-Button {
+    width: 32px;
+    height: 32px;
+    margin: 2px 8px;
+    border-radius: 6px;
+    border: 1px solid #d9d9d9;
+    background-color: white;
+}
+
+.Pager-Button:hover {
+    cursor: pointer;
+}
+
+.Pager-Button:disabled {
+    cursor: text;
+}
+
+.Pager-Button-Selected {
+    background-color: #1890ff;
+    color: white;
+    cursor: text;
+}
+
+.Pager-Container {
+    height: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Pager-Button-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

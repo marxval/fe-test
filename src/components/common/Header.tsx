@@ -5,6 +5,9 @@ type HeaderProps = {
     title:string
 }
 
+/**
+ * Header of the HTML
+ */
 export const Header: React.FC<HeaderProps> = ({title}) => {
     return (
         <header className="Header-Container">

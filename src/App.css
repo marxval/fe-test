@@ -4,7 +4,8 @@
 }
 .App {
   margin: 0 10px;
-    max-width: 1140px;
+  width: 100vw;
+  max-width: 1140px;
   display: flex;
   flex-direction: column;
   justify-content: center;

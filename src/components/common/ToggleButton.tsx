@@ -6,6 +6,9 @@ type IToggleButton = {
     options: Array<string>
 }
 
+/**
+ * Toggle Button Group for selecting Fav hits or from the API
+ */
 export const ToggleButton: React.FC<IToggleButton> = ({ value, setValue, options }) => {
 
     const handleClick = (e: any) => {

@@ -12,10 +12,14 @@ type HitsProps = {
     error: boolean;
 }
 
+
+/**
+ * Create a list of hits from API or favs in local storage
+ */
 export const Hits: React.FC<HitsProps> = ({ items,favs,toggleFav,loading,error }) => {
 
     /**
-     * Add/Delte Fav from state
+     * Add/Delete Fav from state
      */
     const handleClickOnFav = (item: HitType) => {
         toggleFav(item);

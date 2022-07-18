@@ -8,7 +8,6 @@ type Option = {
 }
 
 interface DropdownProps  {
-    /**This is a description */
     selected: string,
     setSelected: (selection: string) => void,
     options: Array<Option>,
@@ -17,7 +16,7 @@ interface DropdownProps  {
 
 
 /**
- * This is a Custom button that takes only one prop named title
+ * Dropdown select for querying API
  */
 export const Dropdown: React.FC<DropdownProps> = ({ selected, setSelected, options, show }) => {
 
